@@ -27,8 +27,9 @@ build the image:
 run the container:
 `docker run -d -p 8080:8080 --name receipt-app-container receipt-app`
 
-then you can reach the container on port 8080 at http://localhost:8080
-you can use my provided postman test collection in the /postman folder
+Wait a few seconds for it to spin up. 
+Then you can reach the container on port 8080 at http://localhost:8080
+You can use my provided postman test collection in the /postman folder
 
 to stop the container:
 `docker stop receipt-app-container`
